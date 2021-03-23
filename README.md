@@ -1,8 +1,10 @@
 # fake_news_detection
 
 Social media interaction especially the news spreading around the network is a great source of information nowadays. Inspite of this great usage some sources are spreading fake news, gossips about organization, individuals.
+
 This demonstrates the detection of fake news in the network using python libraries, data analysis concepts.
 'news.csv' file has information about title, text and label regarding news.
+
 The data we use is usually split into training data and test data. The training set contains a known output and the model learns on this data in order to be generalized to other data.
 
 tfidf_vectorizer=TfidfVectorizer(stop_words='english')
